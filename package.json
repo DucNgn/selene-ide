@@ -1,0 +1,23 @@
+{
+    "name": "selene-ide",
+    "description": "A theia-based IDE",
+    "author": "Duc Nguyen",
+    "private":"true",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DukeNgn/selene-ide"
+    },
+    "scripts": {
+        "preinstall": "node-gyp install",
+        "build:electron": "yarn --cwd electron install",
+        "rebuild:electron": "theia rebuild:electron",
+        "prepare": "yarn rebuild:electron && yarn build:electron",
+        "start:electron": "yarn prepare && yarn --cwd electron start"
+    },
+    "workspaces": [
+        "electron"
+    ],
+    "devDependencies": {
+        "@theia/cli": "latest"
+    }
+}
