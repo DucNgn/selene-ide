@@ -1,18 +1,50 @@
 {
     "name": "selene",
-    "version": "1.0.0",
+    "version": "0.0.1",
+    "keywords": ["selene"],
+    "author": "Duc Nguyen",
     "description": "Selene - a Theia-based IDE",
     "theia": {
         "target": "electron"
     },
+
     "scripts": {
         "prepare": "yarn run build && yarn download:plugins",
         "build": "theia build",
         "start": "theia start --plugins=local-dir:../plugins",
-        "download:plugins": "theia download:plugins -p=true"
+        "download:plugins": "theia download:plugins -p=true",
+        "package": "electron-builder --dir",
+        "dist": "electron-builder"
     },
-    "keywords": ["theia"],
-    "author": "Duc Nguyen",
+    "build": {
+        "productName": "Selene",
+        "appId": "ducnguyen.selene",
+        "electronVersion": "9.0.2",
+        "electronDist": "../node_modules/electron/dist",
+        "asar": "false",
+        "directories": {
+            "output": "../dist"
+         },
+        "files": [
+            "lib",
+            "node_modules/",
+            "src-gen",
+            "package.json"
+        ],
+        "extraResources": {
+            "from": "plugins",
+            "to": "app/plugins"
+        },
+        "mac": {
+            "target": "dmg"
+        },
+        "win": {
+            "target": "nsis"
+        },
+        "linux": {
+            "target": "deb"
+        }
+    },
     "dependencies": {
         "@theia/callhierarchy": "latest",
         "@theia/console": "latest",
