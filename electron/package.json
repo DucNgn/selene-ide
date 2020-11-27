@@ -5,13 +5,17 @@
     "author": "Duc Nguyen",
     "description": "Selene - a Theia-based IDE",
     "theia": {
-        "target": "electron"
+        "target": "electron",
+        "frontend": {
+            "config": {
+              "applicationName": "Selene IDE"
+            }
+        }
     },
-
     "scripts": {
         "prepare": "yarn run build && yarn download:plugins",
-        "build": "theia build",
-        "start": "theia start --plugins=local-dir:../plugins",
+        "build": "theia build --mode production",
+        "start": "theia start --plugins=local-dir:./plugins",
         "download:plugins": "theia download:plugins -p=true",
         "package": "electron-builder --dir",
         "dist": "electron-builder"
@@ -161,6 +165,12 @@
         "vscode-builtin-yaml": "https://open-vsx.org/api/vscode/yaml/1.44.2/file/vscode.yaml-1.44.2.vsix",
         "vscode-editorconfig": "https://open-vsx.org/api/EditorConfig/EditorConfig/0.14.4/file/EditorConfig.EditorConfig-0.14.4.vsix",
         "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/2.1.1/file/dbaeumer.vscode-eslint-2.1.1.vsix",
-        "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix"
+        "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix",
+        "vim": "https://open-vsx.org/api/vscodevim/vim/1.17.1/file/vscodevim.vim-1.17.1.vsix",
+        "gitlens": "https://open-vsx.org/api/entepe85/gitlens/11.0.2/file/entepe85.gitlens-11.0.2.vsix",
+        "one-monokai-theme": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
+        "prettier": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
+        "npm-intellisense": "https://open-vsx.org/api/christian-kohler/npm-intellisense/1.2.2/file/christian-kohler.npm-intellisense-1.2.2.vsix",
+        "live-share": "https://open-vsx.org/api/ms-vsliveshare/vsliveshare/1.0.3121/file/ms-vsliveshare.vsliveshare-1.0.3121.vsix"
     }
 }
