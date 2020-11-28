@@ -1,17 +1,17 @@
 {
     "name": "selene",
     "version": "0.0.1",
-    "keywords": ["selene"],
+    "keywords": ["selene", "ide"],
     "author": "Duc Nguyen - DukeNgn",
     "description": "Selene - a Theia-based IDE",
-    "main": "src-gen/frontend/electron-main.js",
+    "main": "scripts/selene.js",
     "theia": {
         "target": "electron",
         "frontend": {
             "config": {
               "applicationName": "Selene IDE",
               "preferences": {
-                  "workbench.colorTheme": "One Monokai",
+                  "workbench.colorTheme": "GitHub Dark",
                   "workbench.icontheme": "vs-seti"
               }
             }
@@ -145,6 +145,7 @@
         "vim": "https://open-vsx.org/api/vscodevim/vim/1.17.1/file/vscodevim.vim-1.17.1.vsix",
         "gitlens": "https://open-vsx.org/api/eamodio/gitlens/10.2.1/file/eamodio.gitlens-10.2.1.vsix",
         "one-monokai": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
+        "github-theme": "https://open-vsx.org/api/GitHub/github-vscode-theme/1.1.5/file/GitHub.github-vscode-theme-1.1.5.vsix",
         "prettier-vscode": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
         "npm-intellisense": "https://open-vsx.org/api/christian-kohler/npm-intellisense/1.2.2/file/christian-kohler.npm-intellisense-1.2.2.vsix",
         "vsliveshare": "https://open-vsx.org/api/ms-vsliveshare/vsliveshare/1.0.3121/file/ms-vsliveshare.vsliveshare-1.0.3121.vsix",

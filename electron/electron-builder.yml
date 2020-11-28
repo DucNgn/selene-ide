@@ -2,7 +2,7 @@
 appId: dukengn.selene
 productName: Selene
 electronVersion: 9.0.2
-electronDist: node_modules/electron/dist
+electronDist: ../node_modules/electron/dist
 asar: false
 
 directories:
@@ -11,7 +11,12 @@ files:
   - node_modules
   - src-gen
   - lib
+  - scripts
   - package.json
+
+extraResources:
+  - from: 'plugins'
+    to: 'app/plugins'
 
 win:
   target:
@@ -27,3 +32,5 @@ linux:
   target:
     - deb
     - AppImage
+
+publish: null

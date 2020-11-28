@@ -1,6 +1,6 @@
 {
     "name": "selene-ide",
-    "description": "A theia-based IDE",
+    "description": "A self-customed theia-based IDE, pre-packed with some useful ready-to-use extensions",
     "author": "Duc Nguyen - DukeNgn",
     "private":"true",
     "version": "0.0.1",
