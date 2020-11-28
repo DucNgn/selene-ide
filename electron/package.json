@@ -8,7 +8,11 @@
         "target": "electron",
         "frontend": {
             "config": {
-              "applicationName": "Selene IDE"
+              "applicationName": "Selene IDE",
+              "preferences": {
+                  "workbench.colorTheme": "One Monokai",
+                  "workbench.icontheme": "vs-seti"
+              }
             }
         }
     },
@@ -167,10 +171,11 @@
         "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/2.1.1/file/dbaeumer.vscode-eslint-2.1.1.vsix",
         "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix",
         "vim": "https://open-vsx.org/api/vscodevim/vim/1.17.1/file/vscodevim.vim-1.17.1.vsix",
-        "gitlens": "https://open-vsx.org/api/entepe85/gitlens/11.0.2/file/entepe85.gitlens-11.0.2.vsix",
-        "one-monokai-theme": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
-        "prettier": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
+        "gitlens": "https://open-vsx.org/api/eamodio/gitlens/10.2.1/file/eamodio.gitlens-10.2.1.vsix",
+        "one-monokai": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
+        "prettier-vscode": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
         "npm-intellisense": "https://open-vsx.org/api/christian-kohler/npm-intellisense/1.2.2/file/christian-kohler.npm-intellisense-1.2.2.vsix",
-        "live-share": "https://open-vsx.org/api/ms-vsliveshare/vsliveshare/1.0.3121/file/ms-vsliveshare.vsliveshare-1.0.3121.vsix"
+        "vsliveshare": "https://open-vsx.org/api/ms-vsliveshare/vsliveshare/1.0.3121/file/ms-vsliveshare.vsliveshare-1.0.3121.vsix",
+        "bracket-pair-colorizer": "https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix"
     }
 }
