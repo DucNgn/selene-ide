@@ -1,21 +1,26 @@
 {
     "name": "selene-ide",
-    "description": "A self-customed theia-based IDE, pre-packed with some useful ready-to-use extensions",
-    "author": "Duc Nguyen - DukeNgn",
-    "private":"true",
     "version": "0.0.1",
+    "author": "Duc Nguyen - DukeNgn",
+    "keywords": ["selene", "ide"],
+    "description": "A self-customed theia-based IDE, pre-packed with some useful ready-to-use extensions",
+    "private":"true",
     "repository": {
         "type": "git",
         "url": "https://github.com/DukeNgn/selene-ide"
     },
     "scripts": {
         "preinstall": "node-gyp install",
-        "build:electron": "yarn --cwd electron install",
         "rebuild:electron": "theia rebuild:electron",
-        "prepare": "yarn rebuild:electron && yarn build:electron",
-        "start:electron": "yarn prepare && yarn --cwd electron start",
-        "package:preview": "yarn prepare && yarn --cwd electron package:preview",
-        "package": "yarn prepare && yarn --cwd electron package"
+        "rebuild:browser": "theia rebuild:browser",
+        "prepare:electron": "yarn rebuild:electron && yarn build:electron",
+        "prepare:browser": "yarn rebuild:browser && yarn build:browser",
+        "build:electron": "yarn --cwd electron install",
+        "build:browser": "yarn --cwd browser install",
+        "start:electron": "yarn --cwd electron start",
+        "start:browser": "yarn --cwd browser start",
+        "package:preview:electron": "yarn prepare:electron && yarn --cwd electron package:preview",
+        "package:electron": "yarn prepare:electron && yarn --cwd electron package"
     },
     "workspaces": [
         "electron"

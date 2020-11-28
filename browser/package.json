@@ -1,11 +1,12 @@
 {
     "name": "selene",
     "version": "0.0.1",
+    "keywords": ["selene", "ide"],
     "author": "Duc Nguyen - DukeNgn",
-    "description": "Selene IDE - Electron version",
+    "description": "Selene IDE - Browser version",
     "main": "scripts/selene.js",
     "theia": {
-        "target": "electron",
+        "target": "browser",
         "frontend": {
             "config": {
               "applicationName": "Selene IDE",
@@ -20,9 +21,7 @@
         "download:plugins": "theia download:plugins -p=true",
         "prepare": "yarn run build && yarn download:plugins",
         "build": "theia build --mode production",
-        "start": "theia start --plugins=local-dir:./plugins",
-        "package:preview": "electron-builder --dir",
-        "package": "electron-builder"
+        "start": "theia start --plugins=local-dir:./plugins"
     },
     "dependencies": {
         "@theia/callhierarchy": "latest",
@@ -60,12 +59,10 @@
         "@theia/userstorage": "latest",
         "@theia/variable-resolver": "latest",
         "@theia/vsx-registry": "latest",
-        "@theia/workspace": "latest",
-        "@theia/electron": "latest"
+        "@theia/workspace": "latest"
     },
     "devDependencies": {
-        "@theia/cli": "latest",
-        "electron-builder": "22.8.1"
+        "@theia/cli": "latest"
     },
     "engines": {
         "node": ">=12.14.1 <13"
