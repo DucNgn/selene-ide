@@ -1,0 +1,29 @@
+
+appId: dukengn.selene
+productName: Selene
+electronVersion: 9.0.2
+electronDist: node_modules/electron/dist
+asar: false
+
+directories:
+  buildResources: resources
+files:
+  - node_modules
+  - src-gen
+  - lib
+  - package.json
+
+win:
+  target:
+    - nsis
+mac:
+  category: public.app-category.developer-tools
+  darkModeSupport: true
+  target:
+    - dmg
+    - pkg
+linux:
+  category: Development
+  target:
+    - deb
+    - AppImage
