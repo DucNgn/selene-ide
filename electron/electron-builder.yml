@@ -1,4 +1,3 @@
-
 appId: dukengn.selene
 productName: Selene
 electronVersion: 9.0.2
@@ -15,22 +14,38 @@ files:
   - package.json
 
 extraResources:
-  - from: 'plugins'
-    to: 'app/plugins'
+  - from: "plugins"
+    to: "app/plugins"
 
 win:
+  icon: resources/selene.ico
   target:
     - nsis
 mac:
+  icon: resources/selene.icns
   category: public.app-category.developer-tools
   darkModeSupport: true
   target:
     - dmg
     - pkg
 linux:
+  icon: resources/icons
   category: Development
   target:
     - deb
     - AppImage
+
+nsis:
+  menuCategory: true
+  oneClick: false
+  perMachine: true
+  installerHeaderIcon: resources/icon.ico
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+  allowToChangeInstallationDirectory: true
+  runAfterFinish: false
+  artifactName: ${productName}-${version}.${ext}
+deb:
+  artifactName: ${productName}-${version}.${ext}
 
 publish: null
