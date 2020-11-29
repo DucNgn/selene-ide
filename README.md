@@ -1,4 +1,10 @@
-# Selene-IDE
+<div align='center'>
+ <h2>Selene-IDE</h2>
+
+ <div id="badges" align="center">
+ </div>
+ </div>
+
 
 ## Description
 Selene is my own customized IDE, based on project [Eclipse Theia](https://github.com/eclipse-theia/theia). One can see this project as an example to illustrate how to create your own Theia-based IDE and tweak it to your needs.
