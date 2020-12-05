@@ -33,7 +33,6 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Build Browser Target
-        if: ${{ matrix.target }} == "browser"
         shell: bash
         run: |
           cd browser
