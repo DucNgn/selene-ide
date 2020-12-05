@@ -2,6 +2,8 @@
  <h2>Selene-IDE</h2>
 
  <div id="badges" align="center">
+ [![electron](https://github.com/DukeNgn/selene-ide/workflows/electron/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Aelectron)
+ [![browser](https://github.com/DukeNgn/selene-ide/workflows/browser/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Abrowser)
  </div>
  </div>
 
