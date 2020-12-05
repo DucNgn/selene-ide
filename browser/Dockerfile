@@ -6,10 +6,11 @@ ADD package.json ./package.json
 ADD scripts/ scripts
 ARG GITHUB_TOKEN
 ARG NODE_OPTIONS="--max_old_space_size=12040"
+
 RUN yarn --pure-lockfile && \
-    yarn prepare && \
-    yarn --production && \
-    yarn autoclean --init && \
+    yarn prepare
+RUN yarn --production
+RUN yarn autoclean --init && \
     echo *.ts >> .yarnclean && \
     echo *.ts.map >> .yarnclean && \
     echo *.spec.* >> .yarnclean && \
