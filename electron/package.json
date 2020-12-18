@@ -6,6 +6,11 @@
     "main": "scripts/selene.js",
     "theia": {
         "target": "electron",
+        "generator": {
+            "config": {
+              "preloadTemplate": "../preload.html"
+            }
+        },
         "frontend": {
             "config": {
               "applicationName": "Selene IDE",
