@@ -1,6 +1,7 @@
 {
     "name": "selene",
     "version": "0.1.0",
+    "keywords": ["selene", "ide"],
     "author": "Duc Nguyen - DukeNgn",
     "description": "Selene IDE - Electron version",
     "main": "scripts/selene.js",
@@ -12,7 +13,7 @@
               "preferences": {
                   "workbench.colorTheme": "One Monokai",
                   "workbench.iconTheme": "material-icon-theme",
-                  "workbench.editor.closeOnFileDelete": false
+                  "workbench.editor.closeOnFileDelete": "off"
               }
             }
         },
