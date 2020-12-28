@@ -16,9 +16,9 @@
 
 Selene is my own customized IDE, based on project [Eclipse Theia](https://github.com/eclipse-theia/theia). One can see this project as an example to illustrate how to create your own Theia-based IDE and tweak it to your needs.
 
-<center>
-    <img src="./assets/preview.png" width="500">
-</center>
+<div align="center">
+    <img src="./assets/preview.png" width="700">
+</div>
 
 - [Main Theia Repository](https://github.com/eclipse-theia/theia)
 - [Visit the Theia website](http://www.theia-ide.org) for more [documentation](http://www.theia-ide.org/doc).
@@ -58,6 +58,12 @@ yarn package:electron
 yarn package:preview:electron
 ```
 
+#### Rebuild Electron version
+
+```
+yarn rebuild:electron
+```
+
 ## Browser version
 
 ```
@@ -68,4 +74,10 @@ yarn build:browser
 
 ```
 yarn start:browser
+```
+
+#### Rebuild Browser version
+
+```
+yarn rebuild:browser
 ```

@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "keywords": ["selene", "ide"],
     "author": "Duc Nguyen - DukeNgn",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "description": "Selene IDE - Browser version",
     "main": "scripts/selene.js",
     "theia": {
