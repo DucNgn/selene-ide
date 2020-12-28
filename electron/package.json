@@ -5,6 +5,7 @@
     "author": "Duc Nguyen - DukeNgn",
     "license": "GPL-3.0-or-later",
     "description": "Selene IDE - Electron version",
+    "homepage": "https://github.com/DukeNgn/selene-ide",
     "main": "scripts/selene.js",
     "theia": {
         "target": "electron",

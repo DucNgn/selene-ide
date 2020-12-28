@@ -5,6 +5,7 @@
     "license": "GPL-3.0-or-later",
     "keywords": ["selene", "ide"],
     "description": "A self-customed theia-based IDE, pre-packed with some useful ready-to-use extensions",
+    "homepage": "https://github.com/DukeNgn/selene-ide",
     "private":"true",
     "repository": {
         "type": "git",

@@ -18,7 +18,6 @@ extraResources:
     to: "app/plugins"
 
 win:
-  icon: resources/selene.ico
   target:
     - nsis
 mac:
@@ -39,9 +38,9 @@ nsis:
   menuCategory: true
   oneClick: false
   perMachine: true
-  installerHeaderIcon: resources/icon.ico
-  installerIcon: resources/icon.ico
-  uninstallerIcon: resources/icon.ico
+  installerHeaderIcon: resources/selene.ico
+  installerIcon: resources/selene.ico
+  uninstallerIcon: resources/selene.ico
   allowToChangeInstallationDirectory: true
   runAfterFinish: false
   artifactName: ${productName}-${version}.${ext}
