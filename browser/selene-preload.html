@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .theia-preload {
+            background-image: none;
+        }
+
+        .spinner-container {
+            display: flex;
+            flex-direction: center;
+            align-self: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .custom-spinner {
+            align-self: center;
+            flex-direction: row;
+        }
+
+        .custom-spinner svg {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='spinner-container'>
+        <div class='custom-spinner'>
+
+            <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#FF8C00">
+                <text x="19" y="20.5" fill="#d67124" font-family="Open-sans, Arial, Helvetica, sans-serif" font-size="5px" font-weight="50" letter-spacing="1.5px" text-anchor="middle">
+                    SELENE
+                </text>
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(1 1)" stroke-width="2">
+                        <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>
+                        <path d="M36 18c0-9.94-8.06-18-18-18">
+                            <animateTransform
+                                attributeName="transform"
+                                type="rotate"
+                                from="0 18 18"
+                                to="360 18 18"
+                                dur="1s"
+                                repeatCount="indefinite"/>
+                        </path>
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+</body>
+
+</html>

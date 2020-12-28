@@ -5,6 +5,7 @@ RUN apk add --no-cache make pkgconfig gcc g++ python libx11-dev libxkbfile-dev
 
 WORKDIR /home/theia
 ADD package.json ./package.json
+ADD selene-preload.html .
 ADD scripts/ scripts
 ARG GITHUB_TOKEN
 ARG NODE_OPTIONS="--max_old_space_size=12040"
