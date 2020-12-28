@@ -1,13 +1,15 @@
 <div align='center'>
- <h1>Selene-IDE</h1>
-
 <br>
 <img src="./assets/selene.ico" width="100" >
 <br>
 
+ <h1>Selene-IDE</h1>
+
  <div id="badges" align="center">
- [![electron](https://github.com/DukeNgn/selene-ide/workflows/electron/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Aelectron)
- [![browser](https://github.com/DukeNgn/selene-ide/workflows/browser/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Abrowser)
+
+[![electron](https://github.com/DukeNgn/selene-ide/workflows/electron/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Aelectron)
+[![browser](https://github.com/DukeNgn/selene-ide/workflows/browser/badge.svg?branch=master)](https://github.com/DukeNgn/selene-ide/actions?query=branch%3Amaster+workflow%3Abrowser)
+
  </div>
 
  </div>
