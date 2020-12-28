@@ -1,7 +1,7 @@
 {
     "name": "selene-ide",
     "version": "0.1.0",
-    "author": "Duc Nguyen - DukeNgn",
+    "author": "Duc Nguyen <triduc.nguyen@mail.concordia.ca>",
     "license": "GPL-3.0-or-later",
     "keywords": ["selene", "ide"],
     "description": "A self-customed theia-based IDE, pre-packed with some useful ready-to-use extensions",
