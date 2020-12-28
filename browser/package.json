@@ -11,8 +11,9 @@
             "config": {
               "applicationName": "Selene IDE",
               "preferences": {
-                  "workbench.colorTheme": "GitHub Dark",
-                  "workbench.icontheme": "vs-seti"
+                  "workbench.colorTheme": "One Monokai",
+                  "workbench.iconTheme": "material-icon-theme",
+                  "workbench.editor.closeOnFileDelete": false
               }
             }
         }
@@ -142,6 +143,8 @@
         "gitlens": "https://open-vsx.org/api/eamodio/gitlens/10.2.1/file/eamodio.gitlens-10.2.1.vsix",
         "one-monokai": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
         "github-theme": "https://open-vsx.org/api/GitHub/github-vscode-theme/1.1.5/file/GitHub.github-vscode-theme-1.1.5.vsix",
+        "nord": "https://open-vsx.org/api/arcticicestudio/nord-visual-studio-code/0.15.0/file/arcticicestudio.nord-visual-studio-code-0.15.0.vsix",
+        "material-icon-theme": "https://open-vsx.org/api/PKief/material-icon-theme/4.4.0/file/PKief.material-icon-theme-4.4.0.vsix",
         "prettier-vscode": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
         "npm-intellisense": "https://open-vsx.org/api/christian-kohler/npm-intellisense/1.2.2/file/christian-kohler.npm-intellisense-1.2.2.vsix",
         "bracket-pair-colorizer": "https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix"
