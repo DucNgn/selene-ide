@@ -1,6 +1,6 @@
 {
     "name": "selene",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "keywords": ["selene", "ide"],
     "author": "Duc Nguyen - DukeNgn",
     "description": "Selene IDE - Browser version",
