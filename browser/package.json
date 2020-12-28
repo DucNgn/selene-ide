@@ -16,6 +16,11 @@
                   "workbench.editor.closeOnFileDelete": false
               }
             }
+        },
+        "generator": {
+            "config": {
+                "preloadTemplate": "./selene-preload.html"
+            }
         }
     },
     "scripts": {
