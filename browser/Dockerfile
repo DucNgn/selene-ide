@@ -1,6 +1,8 @@
 ARG NODE_VERSION=12.18.3
 FROM node:${NODE_VERSION}-alpine
+
 RUN apk add --no-cache make pkgconfig gcc g++ python libx11-dev libxkbfile-dev
+
 WORKDIR /home/theia
 ADD package.json ./package.json
 ADD scripts/ scripts
@@ -18,7 +20,7 @@ RUN yarn autoclean --init && \
     yarn cache clean
 
 FROM node:${NODE_VERSION}-alpine
-# See : https://github.com/theia-ide/theia-apps/issues/34
+
 RUN addgroup theia && \
     adduser -G theia -s /bin/sh -D theia;
 RUN chmod g+rw /home && \
