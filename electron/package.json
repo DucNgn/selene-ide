@@ -150,6 +150,7 @@
         "vscode-editorconfig": "https://open-vsx.org/api/EditorConfig/EditorConfig/0.14.4/file/EditorConfig.EditorConfig-0.14.4.vsix",
         "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/2.1.1/file/dbaeumer.vscode-eslint-2.1.1.vsix",
         "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix",
+        "ms-python": "https://open-vsx.org/api/ms-python/python/2020.10.332292344/file/ms-python.python-2020.10.332292344.vsix",
         "gitlens": "https://open-vsx.org/api/eamodio/gitlens/10.2.1/file/eamodio.gitlens-10.2.1.vsix",
         "one-monokai": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
         "github-theme": "https://open-vsx.org/api/GitHub/github-vscode-theme/1.1.5/file/GitHub.github-vscode-theme-1.1.5.vsix",
