@@ -30,6 +30,8 @@ Selene is my own customized IDE, based on project [Eclipse Theia](https://github
 - In addition to the vscode built-in extensions, I've added a couple of other extensions that I usually use. The full list is in the `package.json` for both `browser` and `electron` target.
 - See something you don't like? Delete it from the list of plugins in `package.json` and rebuild the app.
 
+## [Install Selene](https://github.com/DukeNgn/selene-ide/releases)
+
 ## Build
 
 ```
