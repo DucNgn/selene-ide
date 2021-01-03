@@ -16,7 +16,7 @@
 
 ## Description
 
-Selene is my own customized IDE, based on project [Eclipse Theia](https://github.com/eclipse-theia/theia). One can see this project as an example to illustrate how to create your own Theia-based IDE and tweak it to your needs.
+Selene is my own customized IDE, based on project [Eclipse Theia](https://github.com/eclipse-theia/theia). One can see this project as an example to illustrate how to create their own Theia-based IDE and tweak it to their needs.
 
 <div align="center">
     <img src="./assets/preview.png" width="700">
@@ -27,10 +27,10 @@ Selene is my own customized IDE, based on project [Eclipse Theia](https://github
 
 ## What's included?
 
-- In addition to the vscode built-in extensions, I've added a couple of other extensions that I usually use. The full list is in the `package.json` for both `browser` and `electron` target.
+- In addition to the built-in extensions, Selene contains other extensions from open-vsx that I usually use. The full list is in the `package.json` for both `browser` and `electron` target.
 - See something you don't like? Delete it from the list of plugins in `package.json` and rebuild the app.
 
-## [Install Selene](https://github.com/DukeNgn/selene-ide/releases)
+## [Install Selene from release](https://github.com/DukeNgn/selene-ide/releases)
 
 ## Build
 
