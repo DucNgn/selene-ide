@@ -114,7 +114,7 @@
         "vscode-builtin-lua": "https://open-vsx.org/api/vscode/lua/1.44.2/file/vscode.lua-1.44.2.vsix",
         "vscode-builtin-make": "https://open-vsx.org/api/vscode/make/1.44.2/file/vscode.make-1.44.2.vsix",
         "vscode-builtin-markdown": "https://open-vsx.org/api/vscode/markdown/1.44.2/file/vscode.markdown-1.44.2.vsix",
-        "vscode-builtin-markdown-language-features": "https://open-vsx.org/api/vscode/markdown-language-features/1.39.1/file/vscode.markdown-language-features-1.39.1.vsix",
+        "vscode-builtin-markdown-language-features": "https://open-vsx.org/api/vscode/markdown-language-features/1.39.2/file/vscode.markdown-language-features-1.39.2.vsix",
         "vscode-builtin-merge-conflict": "https://open-vsx.org/api/vscode/merge-conflict/1.44.2/file/vscode.merge-conflict-1.44.2.vsix",
         "vscode-builtin-npm": "https://open-vsx.org/api/vscode/npm/1.44.2/file/vscode.npm-1.44.2.vsix",
         "vscode-builtin-node-debug": "https://open-vsx.org/api/ms-vscode/node-debug/1.44.8/file/ms-vscode.node-debug-1.44.8.vsix",
@@ -153,12 +153,13 @@
         "vscode-references-view": "https://open-vsx.org/api/ms-vscode/references-view/0.0.47/file/ms-vscode.references-view-0.0.47.vsix",
         "ms-python": "https://open-vsx.org/api/ms-python/python/2020.10.332292344/file/ms-python.python-2020.10.332292344.vsix",
         "gitlens": "https://open-vsx.org/api/eamodio/gitlens/10.2.1/file/eamodio.gitlens-10.2.1.vsix",
-        "one-monokai": "https://open-vsx.org/api/azemoh/one-monokai/0.5.0/file/azemoh.one-monokai-0.5.0.vsix",
+        "one-dark-pro": "https://open-vsx.org/api/zhuangtongfa/material-theme/3.9.13/file/zhuangtongfa.material-theme-3.9.13.vsix",
         "github-theme": "https://open-vsx.org/api/GitHub/github-vscode-theme/1.1.5/file/GitHub.github-vscode-theme-1.1.5.vsix",
         "nord": "https://open-vsx.org/api/arcticicestudio/nord-visual-studio-code/0.15.0/file/arcticicestudio.nord-visual-studio-code-0.15.0.vsix",
         "material-icon-theme": "https://open-vsx.org/api/PKief/material-icon-theme/4.4.0/file/PKief.material-icon-theme-4.4.0.vsix",
         "prettier-vscode": "https://open-vsx.org/api/esbenp/prettier-vscode/5.8.0/file/esbenp.prettier-vscode-5.8.0.vsix",
         "npm-intellisense": "https://open-vsx.org/api/christian-kohler/npm-intellisense/1.2.2/file/christian-kohler.npm-intellisense-1.2.2.vsix",
-        "bracket-pair-colorizer": "https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix"
+        "bracket-pair-colorizer": "https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix",
+        "path-intellisense": "https://open-vsx.org/api/christian-kohler/path-intellisense/2.3.0/file/christian-kohler.path-intellisense-2.3.0.vsix"
     }
 }
